@@ -1,0 +1,25 @@
+import React from "react";
+
+function App() {
+
+
+
+  const handleClick = () => {
+    alert("Hello, World!");
+  };
+
+  console.log("hello, world。")
+
+  return (
+    <div className="p-4">
+      <h1 className="text-4xl font-bold">
+        Hi, 我们开始学习 DaisyUI + Vite + React 啦!
+      </h1>
+      <button className="btn btn-primary mt-4" onClick={handleClick}>
+        Click me!
+      </button>
+    </div>
+  );
+}
+
+export default App;
